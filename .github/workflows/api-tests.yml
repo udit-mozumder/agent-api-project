@@ -29,4 +29,5 @@ jobs:
 
       - name: Run API Tests
         run: |
+          export PYTHONPATH=$PYTHONPATH:.
           pytest -v
